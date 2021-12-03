@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    background:${({ theme }) => theme.bg_color} ;
+    background:${({ theme }) => theme.background.darkblue} ;
   }
 
   body{ 
@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button {
-    font-family:"Poppins", sans-serif;
+    font-family:"Ubuntu", sans-serif;
     font-weight: 400;
 
   }
