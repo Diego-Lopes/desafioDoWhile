@@ -7,6 +7,7 @@ export const theme = {
   },
   background: {
     darkblue: "#282C4B",
+    white: "#FFFFFF",
   },
   form: {
     inputText: {
