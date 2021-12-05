@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 2rem 0 0;
 
   background-image: url("./img/background.svg");
@@ -54,7 +54,7 @@ export const Content = styled.div`
     @media screen and (max-width: 500px) {
       width: 100%;
 
-      gap: 5rem;
+      gap: 2rem;
     }
 
     @media screen and (min-width: 1080px) {
@@ -66,6 +66,10 @@ export const Content = styled.div`
     width: 90%;
 
     flex-direction: column;
+
+    img {
+      width: 95% !important;
+    }
   }
 
   @media screen and (min-width: 1080px) {
