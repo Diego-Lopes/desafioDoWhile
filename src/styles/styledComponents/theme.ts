@@ -17,4 +17,9 @@ export const theme = {
   button: {
     pinkGradient: "linear-gradient(97.32deg, #FF698D -3.47%, #FB3F6C 108.43%);",
   },
+  colorIcons: {
+    blue: "#593FFB",
+    green: "#80CC28",
+    pink: "#FB4570",
+  },
 };
