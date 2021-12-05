@@ -9,7 +9,7 @@ export const Container = styled.button`
   gap: 0.4rem;
 
   padding: 1.5rem 2.1875rem;
-  border: none;
+  border: 2px solid #ffffff;
   border-radius: 50px;
   background-image: ${({ theme }) => theme.button.pinkGradient};
   transition: filter 0.5s;
