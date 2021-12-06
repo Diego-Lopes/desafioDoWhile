@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export function HomeLayout() {
   return (
-    <Container className="containerHome">
+    <Container className="containerHome" id="/">
       <Content className="contentHome">
         <span className="boxLeft">
           <BoxText />
