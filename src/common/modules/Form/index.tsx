@@ -1,6 +1,5 @@
 import { Button } from "@/common/modules/Button";
 import { api } from "@/service/api";
-import axios from "axios";
 import { FormEvent, useState } from "react";
 import { toast } from "react-toastify";
 import { Container } from "./styled";
@@ -8,29 +7,27 @@ import { Container } from "./styled";
 interface IdataProps {
   nome: string;
   email: string;
-  description: string;
+  descricao: string;
 }
 
 export function FormModule() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [textArea, setTextArea] = useState("");
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [textArea, setTextArea] = useState<string>("");
 
   async function sendToExell() {
     const dataForm: IdataProps = {
       nome: name,
-      email: email,
-      description: textArea,
+      email,
+      descricao: textArea,
     };
+
+    console.log(dataForm);
 
     await api
       .post("", dataForm)
       .then(() => {
         toast.success("Formulário enviado com sucesso. 🚀");
-
-        setName("");
-        setEmail("");
-        setTextArea("");
       })
       .catch((err) => {
         toast.error(`${err.message}`);
