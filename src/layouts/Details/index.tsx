@@ -3,10 +3,11 @@ import Image from "next/image";
 import logoImg from "./img/mulherDiploma.webp";
 import React from "react";
 import { Button } from "@/common/modules/Button";
+import Link from "next/link";
 
 export function Details() {
   return (
-    <Container>
+    <Container id="about">
       <Content>
         <div className="boxImg">
           <Image src={logoImg} alt="Mulher com certificação" />
@@ -28,9 +29,13 @@ export function Details() {
             parâmetros.
           </p>
 
-          <Button>
-            <>Quero participar</>
-          </Button>
+          <Link href="#form">
+            <a>
+              <Button>
+                <>Quero participar</>
+              </Button>
+            </a>
+          </Link>
         </div>
       </Content>
     </Container>
