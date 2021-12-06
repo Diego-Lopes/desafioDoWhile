@@ -60,6 +60,14 @@ export const Container2 = styled.div`
     }
   }
 
+  .containerPlane {
+    display: flex;
+
+    @media screen and (max-width: 580px) {
+      display: block;
+    }
+  }
+
   .--custom {
     width: 50%;
     height: 17.9375rem;
@@ -90,7 +98,7 @@ export const Container2 = styled.div`
     }
     ul {
       height: 3.5rem;
-      margin-bottom: 2.5rem;
+      /* margin-bottom: 2.5rem; */
     }
   }
   .boxFocus {
