@@ -20,6 +20,11 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width: 720px){
       font-size: 87.5%; 
     }
+    scroll-behavior: smooth;
+  }
+
+  :target {
+    scroll-margin-top: .8em;
   }
 
   a {
@@ -61,7 +66,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
   transition: all 0.5s;
-
+  
   }
+ 
 
 `;
