@@ -12,7 +12,7 @@
 <h2> Software Requirements 🔍</h2>
 
 <li><a href="https://yarnpkg.com/">Install Yarn</a></li>
-<!-- <li><a href="https://nodejs.org/en/">Install NodeJs</a></li> -->
+<li><a href="https://nodejs.org/en/">Install NodeJs</a></li>
 
 <h2> Installing and running the project 🎲</h2>
 
