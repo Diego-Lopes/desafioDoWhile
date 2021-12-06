@@ -28,6 +28,9 @@ export function FormModule() {
       .post("", dataForm)
       .then(() => {
         toast.success("Formulário enviado com sucesso. 🚀");
+        setName("");
+        setEmail("");
+        setTextArea("");
       })
       .catch((err) => {
         toast.error(`${err.message}`);
