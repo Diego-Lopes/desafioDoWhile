@@ -1,3 +1,3 @@
-# NetFamilia | Desafio para Bolsa Rocketseat evento DoWhile
+# NetFamilia | Desafio da Rocketseat evento DoWhile
 
-<img src="./public/img/NetFamilia.png"/>
+<img src="./public/img/screen.png"/>
