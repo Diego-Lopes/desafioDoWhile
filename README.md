@@ -36,7 +36,7 @@ $ yarn start
 
 <br/>
 
-<img src="./public/img/NetFamilia.png"/>
+<img src="./public/img/screen.png"/>
 
 <br />
 <hr />
