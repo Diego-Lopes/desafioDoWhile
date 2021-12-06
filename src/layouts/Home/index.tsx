@@ -21,10 +21,13 @@ export function HomeLayout() {
                 </Button>
               </a>
             </Link>
-            <Button className="--buttonModificationInHome">
+            <Button
+              className="--buttonModificationInHome"
+              style={{ border: "2px solid black" }}
+            >
               <>
-                <MdPlayCircleOutline size="16" />
-                Assista o vídeo
+                <MdPlayCircleOutline size="16" style={{ color: "black" }} />
+                <p style={{ color: "black" }}>Assista o vídeo</p>
               </>
             </Button>
           </div>
