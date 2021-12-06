@@ -6,10 +6,6 @@ export const Container = styled.footer`
   padding: 2rem;
 
   background: ${({ theme }) => theme.background.darkblue};
-  background-image: url("./img/backgroundFooter.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 `;
 
 export const Content = styled.div`
