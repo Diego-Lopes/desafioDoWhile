@@ -8,17 +8,17 @@ export const GlobalStyle = createGlobalStyle`
     background:${({ theme }) => theme.background.white} ;
   }
 
-  body{ 
+  body{
      //para não deixar o texto serrilhado
      -webkit-font-smoothing: antialiased;
   }
-  
+
   html{
     @media (max-width: 1080px){
-      font-size: 93.75%; 
+      font-size: 93.75%;
     }
     @media (max-width: 720px){
-      font-size: 87.5%; 
+      font-size: 87.5%;
     }
     scroll-behavior: smooth;
   }
@@ -36,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
    button{
-    cursor: pointer;    
+    cursor: pointer;
   }
 
   body, input, textarea, button {
@@ -66,8 +66,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
   transition: all 0.5s;
-  
+
   }
- 
+
 
 `;
