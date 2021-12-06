@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <Container>
       <Content>
-        <Link href="/">
+        <Link href="/#">
           <a>NetFamilia.</a>
         </Link>
         <p>&#169; Feito com 💜, Diego Lopes.</p>

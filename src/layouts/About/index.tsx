@@ -1,4 +1,4 @@
-import { Container, Container2 } from "./styles";
+import { Container, Container2, Wrapper } from "./styles";
 import Image from "next/image";
 import logoImg from "./img/ministerio.webp";
 import arrowSvg from "./img/arrow.svg";
@@ -7,14 +7,14 @@ import { MdComputer, MdFilterCenterFocus, MdHouse } from "react-icons/md";
 
 export function About() {
   return (
-    <>
+    <Wrapper>
       <Container>
-        <div className="boxImg">
+        <div className="boxImg" data-aos="fade-up">
           <Image src={logoImg} alt="Logo ministério da educação" />
         </div>
       </Container>
       <Container2>
-        <div className="boxMinist">
+        <div className="boxMinist" data-aos="fade-up">
           <p>Apoio</p>
           <h2>Ministério da educação</h2>
           <p>
@@ -24,7 +24,11 @@ export function About() {
           <Image src={arrowSvg} alt="seta aleatória." />
         </div>
         <div className="containerPlane">
-          <div className="boxPc --custom">
+          <div
+            className="boxPc --custom"
+            data-aos="fade-down"
+            data-aos-delay="200"
+          >
             <MdComputer size="48" />
             <h5>kit básico de estudo</h5>
             <ul>
@@ -32,7 +36,11 @@ export function About() {
               <li>Kit computador básico.</li>
             </ul>
           </div>
-          <div className="boxFocus --custom">
+          <div
+            className="boxFocus --custom"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <MdFilterCenterFocus size="48" />
             <h5>Foco total</h5>
             <ul>
@@ -42,7 +50,11 @@ export function About() {
               </li>
             </ul>
           </div>
-          <div className="boxHome --custom">
+          <div
+            className="boxHome --custom"
+            data-aos="fade-down"
+            data-aos-delay="600"
+          >
             <MdHouse size="48" />
             <h5>Diversão em família</h5>
             <ul>
@@ -54,6 +66,6 @@ export function About() {
           </div>
         </div>
       </Container2>
-    </>
+    </Wrapper>
   );
 }
