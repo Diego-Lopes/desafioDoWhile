@@ -13,9 +13,11 @@ export const Content = styled.div`
 
   display: flex;
   gap: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
 
   .boxImg {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   @media screen and (max-width: 580px) {
