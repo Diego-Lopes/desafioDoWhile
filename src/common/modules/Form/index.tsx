@@ -1,17 +1,50 @@
 import { Button } from "@/common/modules/Button";
-import { useState } from "react";
+import { api } from "@/service/api";
+import axios from "axios";
+import { FormEvent, useState } from "react";
+import { toast } from "react-toastify";
 import { Container } from "./styled";
+
+interface IdataProps {
+  nome: string;
+  email: string;
+  description: string;
+}
 
 export function FormModule() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [textArea, setTextArea] = useState("");
-  console.log(`input name ${name}`);
-  console.log(`input email ${email}`);
-  console.log(`input textArea ${textArea}`);
+
+  async function sendToExell() {
+    const dataForm: IdataProps = {
+      nome: name,
+      email: email,
+      description: textArea,
+    };
+
+    await api
+      .post("", dataForm)
+      .then(() => {
+        toast.success("Formulário enviado com sucesso. 🚀");
+
+        setName("");
+        setEmail("");
+        setTextArea("");
+      })
+      .catch((err) => {
+        toast.error(`${err.message}`);
+      });
+  }
+
+  async function handleSubmit(e: FormEvent) {
+    e.preventDefault();
+
+    await sendToExell();
+  }
 
   return (
-    <Container onSubmit={""}>
+    <Container onSubmit={handleSubmit}>
       <div className="boxText">
         <p>Entre em contato</p>
         <h2>Educação é para todos!</h2>
@@ -33,12 +66,10 @@ export function FormModule() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          placeholder="digite o email valido"
+          placeholder="Digite o email valido"
         />
       </label>
       <textarea
-        cols={30}
-        rows={10}
         value={textArea}
         onChange={(e) => setTextArea(e.target.value)}
         required
