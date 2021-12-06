@@ -53,6 +53,7 @@ export const Content = styled.div`
   @media screen and (max-width: 580px) {
     width: 100%;
     justify-content: space-between;
+    flex-direction: column;
     gap: 1rem;
     a {
       font-size: 1.2rem;
