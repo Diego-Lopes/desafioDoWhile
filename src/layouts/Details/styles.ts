@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100%;
+  padding: 2rem 0;
 
   background: ${({ theme }) => theme.background.darkblue};
 `;
@@ -17,7 +18,6 @@ export const Content = styled.div`
 
   .boxImg {
     max-width: 50%;
-    margin-top: 2rem;
   }
 
   .boxText {
