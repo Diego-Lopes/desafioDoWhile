@@ -23,33 +23,35 @@ export function About() {
           </p>
           <Image src={arrowSvg} alt="seta aleatória." />
         </div>
-        <div className="boxPc --custom">
-          <MdComputer size="48" />
-          <h5>kit básico de estudo</h5>
-          <ul>
-            <li>Conexção de 10Mb</li>
-            <li>Kit computador básico.</li>
-          </ul>
-        </div>
-        <div className="boxFocus --custom">
-          <MdFilterCenterFocus size="48" />
-          <h5>kit básico de estudo</h5>
-          <ul>
-            <li>
-              Para total aproveitamento alguns sites são bloqueados para não
-              atrapalhar os estudos.
-            </li>
-          </ul>
-        </div>
-        <div className="boxHome --custom">
-          <MdHouse size="48" />
-          <h5>kit básico de estudo</h5>
-          <ul>
-            <li>
-              Ninguém é uma máquina, liberamos o acesso global nos fins de
-              semana para aproveitar com a família.
-            </li>
-          </ul>
+        <div className="containerPlane">
+          <div className="boxPc --custom">
+            <MdComputer size="48" />
+            <h5>kit básico de estudo</h5>
+            <ul>
+              <li>Conexção de 10Mb</li>
+              <li>Kit computador básico.</li>
+            </ul>
+          </div>
+          <div className="boxFocus --custom">
+            <MdFilterCenterFocus size="48" />
+            <h5>Foco total</h5>
+            <ul>
+              <li>
+                Para total aproveitamento alguns sites são bloqueados para não
+                atrapalhar os estudos.
+              </li>
+            </ul>
+          </div>
+          <div className="boxHome --custom">
+            <MdHouse size="48" />
+            <h5>Diversão em família</h5>
+            <ul>
+              <li>
+                Ninguém é uma máquina, liberamos o acesso global nos fins de
+                semana para aproveitar com a família.
+              </li>
+            </ul>
+          </div>
         </div>
       </Container2>
     </>
