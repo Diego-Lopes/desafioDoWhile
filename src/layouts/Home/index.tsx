@@ -14,9 +14,13 @@ export function HomeLayout() {
         <span className="boxLeft">
           <BoxText />
           <div className="boxButton">
-            <Link href="#about">
+            <Link href="#about" data-aos="fade-up" data-aos-delay="200">
               <a>
-                <Button className="--buttonModificationInHomeFirst">
+                <Button
+                  className="--buttonModificationInHomeFirst"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   <>Como funciona?</>
                 </Button>
               </a>
@@ -24,6 +28,8 @@ export function HomeLayout() {
             <Button
               className="--buttonModificationInHome"
               style={{ border: "2px solid black" }}
+              data-aos="fade-up"
+              data-aos-delay="300"
             >
               <>
                 <MdPlayCircleOutline size="16" style={{ color: "black" }} />
@@ -32,7 +38,12 @@ export function HomeLayout() {
             </Button>
           </div>
         </span>
-        <Image src={logoImg} className="img" />
+        <Image
+          src={logoImg}
+          className="img"
+          data-aos="fade-up"
+          data-aos-delay="250"
+        />
       </Content>
     </Container>
   );
