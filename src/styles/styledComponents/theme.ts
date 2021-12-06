@@ -22,4 +22,7 @@ export const theme = {
     green: "#80CC28",
     pink: "#FB4570",
   },
+  colorInput: {
+    whiteLight: "#FFF8F8",
+  },
 };

@@ -9,7 +9,10 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 90%;
-  margin: 0 auto;
+  margin: 2rem auto;
+
+  display: flex;
+  gap: 2rem;
 
   .boxImg {
     max-width: 50%;
