@@ -16,8 +16,9 @@ export const Container = styled.button`
 
   color: ${({ theme }) => theme.colorText.white};
   font-weight: 600;
+  /* filter: brightness(0.8); */
 
   &:hover {
-    filter: brightness(0.9);
+    filter: brightness(1.2);
   }
 `;

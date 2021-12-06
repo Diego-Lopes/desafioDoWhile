@@ -30,6 +30,7 @@ export const Content = styled.div`
     .boxButton {
       width: 100%;
       display: flex;
+      gap: 2rem;
 
       justify-content: center;
       align-items: center;
