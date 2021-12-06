@@ -5,6 +5,7 @@ import logoImg from "./img/mocahello.webp";
 import { Container, Content } from "./styles";
 import { Button } from "@/common/modules/Button";
 import { MdPlayCircleOutline } from "react-icons/md";
+import Link from "next/link";
 
 export function HomeLayout() {
   return (
@@ -13,9 +14,13 @@ export function HomeLayout() {
         <span className="boxLeft">
           <BoxText />
           <div className="boxButton">
-            <Button className="--buttonModificationInHomeFirst">
-              <>Como funciona?</>
-            </Button>
+            <Link href="#about">
+              <a>
+                <Button className="--buttonModificationInHomeFirst">
+                  <>Como funciona?</>
+                </Button>
+              </a>
+            </Link>
             <Button className="--buttonModificationInHome">
               <>
                 <MdPlayCircleOutline size="16" />
