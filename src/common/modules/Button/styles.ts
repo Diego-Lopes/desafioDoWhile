@@ -14,6 +14,9 @@ export const Container = styled.button`
   background-image: ${({ theme }) => theme.button.pinkGradient};
   transition: filter 0.5s;
 
+  color: ${({ theme }) => theme.colorText.white};
+  font-weight: 600;
+
   &:hover {
     filter: brightness(0.9);
   }
