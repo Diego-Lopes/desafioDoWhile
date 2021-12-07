@@ -44,8 +44,9 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="canonical" href="https://desafio-do-while.vercel.app/" />
           <link
-            rel="icon"
-            href="https://cdn-icons.flaticon.com/png/128/3330/premium/3330314.png?token=exp=1638821370~hmac=e3dddee910069d56fc7dd36aeaa9659e"
+            rel="shortcut icon"
+            href="https://cdn-icons.flaticon.com/png/512/3377/premium/3377182.png?token=exp=1638891154~hmac=bc8eadaeb8a75d5229e0df1be003b65a"
+            type="image/png"
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700&display=swap"
