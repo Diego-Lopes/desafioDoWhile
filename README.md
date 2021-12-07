@@ -1,6 +1,6 @@
 # NetFamilia | Desafio da Rocketseat evento DoWhile
 
-##### O intuido do desafio é criar um landing page com um proposito de solucionar uma dor, o acesso à educação hoje utilizando a tecnologia, então criei NetFamilia baseado no Bolsa Familia o proposito da NetFamilia e ajudar família de baixa renda ter acesso a educação de ensino.
+##### O intuito do desafio é criar um landing page com um propósito de solucionar uma dor, o acesso à educação hoje utilizando a tecnologia, então criei NetFamilia baseado no Bolsa Família o proposito da NetFamilia e ajudar família de baixa renda ter acesso a educação de ensino.
 
 <h2> Technologies 🚀 </h2>
 <li><a href="https://reactnative.dev/">ReactJS</a></li>
