@@ -40,6 +40,7 @@ export function HomeLayout() {
         </span>
         <Image
           src={logoImg}
+          alt="mulher sorrindo e saldando, com a mão esquerda e a mão direita segurando laptop."
           className="img"
           data-aos="fade-up"
           data-aos-delay="250"
