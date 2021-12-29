@@ -42,7 +42,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link rel="canonical" href="https://desafio-do-while.vercel.app/" />
+          <link rel="canonical" href="https://netfamilia.diegodev.com.br" />
           <link rel="shortcut icon" href="./img/family.png" type="image/png" />
           <link
             href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700&display=swap"
@@ -82,6 +82,7 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="n6b0or3UqwMLa2qpy3Q_c1MvsMp5ORnoGmPnPPIW_5g"
           />
+
           {/* END SEO */}
 
           {/* CARD SHOW FB */}
