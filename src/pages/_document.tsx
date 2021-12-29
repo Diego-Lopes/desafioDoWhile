@@ -78,6 +78,10 @@ export default class MyDocument extends Document {
           #NoArchive (Apenas Google): A página não é arquivada.
           */}
           <meta name="robots" content="index, follow" />
+          <meta
+            name="google-site-verification"
+            content="n6b0or3UqwMLa2qpy3Q_c1MvsMp5ORnoGmPnPPIW_5g"
+          />
           {/* END SEO */}
 
           {/* CARD SHOW FB */}
