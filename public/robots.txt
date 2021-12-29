@@ -17,3 +17,5 @@ Allow:/
 User-agent: Adsbot-Google
 
 Allow:/
+
+Sitemap: https://netfamilia.diegodev.com.br/xml/sitemap.xml
