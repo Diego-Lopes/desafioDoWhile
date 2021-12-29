@@ -49,6 +49,16 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
+          {/* SEO */}
+          {/* <base href="https://netfamilia.diegodev.com.br" /> */}
+
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+          <meta name="HandheldFriendly" content="True" />
+          <meta name="apple-touch-fullscreen" content="yes" />
+          <meta
+            name="keywords"
+            content="Diego Lopes, DiegoDev, Diego dev, marketing, inbound, outbound, designer, site, Rocketseat, seo, google ads, google, marca, branding, redes sociais, facebook, instagram, youtube, linkedin, monitoramento, resultados, performance, marketing, mkt digital, marketing digital, ji-parana"
+          />
           <meta
             name="author"
             content="NetFamilia | Made whit ❤ by Diego Lopes"
@@ -57,6 +67,41 @@ export default class MyDocument extends Document {
             name="description"
             content="NetFamilia tem o intuito de facilitar o acesso a educação por meio da tecnoligia atual."
           />
+
+          {/*
+          #All: Valor default, significa vazio, o robô de busca não recebe nenhuma informação.
+          #Index: Os robôs de busca podem incluir a páginanormalmente.
+          #Follow: Robôs podem indexar a página e ainda seguir os links para outras páginas que ela contém.
+          #NoIndex:Os links podem ser seguidos, mas a página não é indexada.
+          #NoFollow: A página é indexada, mas os links não são seguidos.
+          #None: Os robôs podem ignorar a página.
+          #NoArchive (Apenas Google): A página não é arquivada.
+          */}
+          <meta name="robots" content="index, follow" />
+          {/* END SEO */}
+
+          {/* CARD SHOW FB */}
+          <meta property="og:locale" content="pt_BR" />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="NetFamília | Made whit ❤ by Diego Lopes"
+          />
+          <meta property="og:site_name" content="NetFamília" />
+          <meta
+            property="og:image"
+            content="https://netfamilia.diegodev.com.br/img/screen.png"
+          />
+          <meta
+            property="og:description"
+            content="Um projeto feito por Diego Lopes, para fins profissional."
+          />
+          <meta
+            property="og:url"
+            content="https://netfamilia.diegodev.com.br"
+          />
+
+          {/* END CARD */}
         </Head>
         <body>
           <Main />
