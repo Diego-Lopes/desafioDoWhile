@@ -12,6 +12,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>NetFamilia | Programa educação para todos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
         <HomeLayout />
