@@ -1,16 +1,25 @@
 import React from "react";
 import { Container, Content } from "./styles";
 import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import Link from "next/link";
 
 export function Footer() {
+  function handleTop() {
+    window.scroll({ top: 0, behavior: "smooth" });
+  }
   return (
     <Container>
       <Content>
-        <Link href="/#">
-          <a>NetFamilia.</a>
-        </Link>
-        <p>&#169; Feito com 💜, Diego Lopes.</p>
+        <button type="button" onClick={handleTop}>
+          NetFamilia.
+        </button>
+
+        <p>
+          &#169; Feito com 💜{" "}
+          <a href="https://www.diegodev.com.br" target="_blank">
+            Diego Lopes
+          </a>
+          .
+        </p>
         <div className="boxIcons">
           <a href="https://www.instagram.com/diego.loop/" className="--icon">
             <AiFillInstagram size="24" />
