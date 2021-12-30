@@ -16,7 +16,19 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-evenly;
 
+  button {
+    background: none;
+    border: none;
+    color: ${({ theme }) => theme.colorText.white};
+    font-size: 1.625rem;
+    font-weight: 700;
+  }
+
   a {
+    color: ${({ theme }) => theme.colorText.white};
+  }
+
+  .--icon {
     font-size: 1.625rem;
     font-weight: 700;
     color: ${({ theme }) => theme.colorText.white};
