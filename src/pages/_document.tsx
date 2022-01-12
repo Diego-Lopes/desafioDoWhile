@@ -57,11 +57,11 @@ export default class MyDocument extends Document {
           <meta name="apple-touch-fullscreen" content="yes" />
           <meta
             name="keywords"
-            content="Diego Lopes, DiegoDev, Diego dev, marketing, inbound, outbound, designer, site, Rocketseat, seo, google ads, google, marca, branding, redes sociais, facebook, instagram, youtube, linkedin, monitoramento, resultados, performance, marketing, mkt digital, marketing digital, ji-parana"
+            content="Rocketseat, dowhile, Diego Lopes, DiegoDev, Diego dev, marketing, inbound, outbound, designer, site, seo, google ads, google, marca, branding, redes sociais, facebook, instagram, youtube, linkedin, monitoramento, resultados, performance, marketing, mkt digital, marketing digital, ji-parana"
           />
           <meta
             name="author"
-            content="NetFamilia | Made whit ❤ by Diego Lopes"
+            content="NetFamilia | Made with ❤ by Diego Lopes"
           />
           <meta
             name="description"
