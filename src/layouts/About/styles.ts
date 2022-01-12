@@ -87,11 +87,12 @@ export const Container2 = styled.div`
     justify-content: center;
     flex-direction: column;
     transform: scale 5s;
+    border-radius: 2rem;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
     h5 {
       font-size: 1.25rem;
