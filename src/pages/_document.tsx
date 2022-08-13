@@ -122,13 +122,13 @@ export default class MyDocument extends Document {
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS4G8F2C3K" />
           <script
             dangerouslySetInnerHTML={{
-              __html: `<script>
+              __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
     
               gtag('config', 'G-NS4G8F2C3K');
-            </script>`,
+            `,
             }}
           />
         
