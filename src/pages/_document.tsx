@@ -117,6 +117,16 @@ export default class MyDocument extends Document {
               })(window,document,'script','dataLayer','GTM-THL98ZT');`,
             }}
           />
+
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS4G8F2C3K" />
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-NS4G8F2C3K');
+        </script>
           {/* end tag */}
         </Head>
         <body>
