@@ -8,7 +8,7 @@ export function BoxText() {
         <h1 data-aos="fade-up">NetFamilia</h1>
         <div className="contentBox">
           <p>
-            Plano de intenet para família de baixa renda, baseado na bolsa
+            Plano de internet para família de baixa renda, baseado na bolsa
             família a NetFamilia vem com propósito de levar a educação para as
             crianças.
           </p>
